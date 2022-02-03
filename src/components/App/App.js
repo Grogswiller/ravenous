@@ -4,6 +4,7 @@ import BusinessList from './src/components/BusinessList';
 import SearchBar from './src/components/SearchBar/';
 
 function App() {
+  render() {
   return (
   <div class="App">
     <h1>ravenous</h1>
@@ -11,5 +12,6 @@ function App() {
     <BusinessList /> 
   </div>
   )}
+  }
 
 export default App;
