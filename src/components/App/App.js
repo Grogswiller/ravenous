@@ -1,17 +1,17 @@
 import React from 'react';
 import './App.css';
-import BusinessList from './src/components/BusinessList';
-import SearchBar from './src/components/SearchBar/';
+import BusinessList from '../components/BusinessList/BusinessList';
+import SearchBar from '../components/SearchBar/SearchBar';
+
 
 function App() {
-  render() {
     return (
-      <div class="App">
-        <h1>ravenous</h1>
-        <SearchBar />
-        <BusinessList /> 
-      </div>
+        <div className="App">
+          <h1>ravenous</h1>
+          <SearchBar />
+          <BusinessList /> 
+        </div>
     )
-  }
+}  
 
 export default App;
