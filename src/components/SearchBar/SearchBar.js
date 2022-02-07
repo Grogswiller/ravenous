@@ -1,4 +1,3 @@
-import { render } from '@testing-library/react';
 import React from 'react';
 import './SearchBar.css';
 
@@ -12,11 +11,11 @@ class SearchBar extends React.Component {
     renderSortByOptions() {
         return Object.keys(sortByOptions).map(sortByOption => {
             let sortByOptionValue = sortByOptions[sortByOption];
-            return <li>{sortByOptionValue.key}</li>
-        })
+            return <li key={sortByOptionValue}>{sortByOption}</li>
+        });
     }
 
-render() {
+render() {  
     return (
         <div className="SearchBar">
             <div className="SearchBar-sort-options">
