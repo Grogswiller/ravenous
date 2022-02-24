@@ -4,13 +4,15 @@
   "homepage": "https://grogswiller.github.io/ravenous",
   "private": true,
   "dependencies": {
-    "react": "^15.6.0",
-    "react-dom": "^15.6.0",
+    "react": "^15.7.0",
+    "react-dom": "^15.7.0",
+    "typescript": "^4.5.5",
+    "web-vitals": "^2.1.4",
     "whatwg-fetch": "^3.6.2"
   },
   "devDependencies": {
     "gh-pages": "^3.2.3",
-    "react-scripts": "3.0.0"
+    "react-scripts": "^5.0.0"
   },
   "scripts": {
     "predeploy": "npm run build",
