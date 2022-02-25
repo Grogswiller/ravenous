@@ -1,4 +1,4 @@
-const apiKey = 'rc2TsQ_ClkScNdg3Do04fAW8EcyOC3mBocmbj_ojn09O2y-cQ6fY4gH8o3yrBj0tpVKTjE18CkeZDj-SV66Z-nNE7cA9dXVgjPjLwI4Deg4yI0OyCze9pLaLPr8KYnYx';
+const apiKey = process.env.REACT_APP_WEATHER_API_KEY;
 
 const Yelp = {
     search(term, location, sortBy) {
