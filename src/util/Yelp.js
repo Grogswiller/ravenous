@@ -1,4 +1,8 @@
-const apiKey = process.env.REACT_APP_API_KEY;
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
+const apiKey = os.getenv('REACT_APP_API_KEY');
 
 const Yelp = {
   search(term, location, sortBy) {
