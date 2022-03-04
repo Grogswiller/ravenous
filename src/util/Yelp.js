@@ -1,4 +1,4 @@
-const apiKey = process.env.REACT_APP_WEATHER_API_KEY;
+const apiKey = process.env.REACT_APP_API_KEY;
 
 const Yelp = {
   search(term, location, sortBy) {
